@@ -28,6 +28,14 @@ public class MainDrive {
 				
 				int inputNum = myScanner.nextInt();
 				
+//				1. 1 ~ 45의 범위인가?
+				
+				boolean isRangeOk = (1 <= inputNum) && (inputNum <= 45);
+				
+//				2. 이미 등록된 숫자가 아닌가? => 중복이 아닌가?
+				
+//				1, 2를 모두 통과하면 => 내 번호 배열에 등록 + 다음 숫자로 이동.
+				
 				
 				
 			}
