@@ -66,7 +66,17 @@ public class MainDrive {
 					
 					
 				}
-				
+				else if(!isRangeOk) {
+					
+//					범위 검사에 탈락?
+					System.out.println("로또는 1~45의 숫자만 입력 가능합니다.");
+					
+				}
+				else {
+//					통과 X, 범위검사 O => 중복검사에서 탈락.
+					
+					System.out.println("중복된 숫자는 입력할 수 없습니다.");
+				}
 				
 				
 			}
