@@ -43,7 +43,7 @@ public class MainDrive {
 					
 					if(myNum == inputNum) {
 						
-						
+//						같은걸 발견! => 중복
 						isDuplOk = false;
 						
 						
@@ -54,7 +54,7 @@ public class MainDrive {
 				
 //				1, 2를 모두 통과하면 => 내 번호 배열에 등록 + 다음 숫자로 이동.
 				
-				if (isRangeOk) {
+				if (isRangeOk && isDuplOk) {
 					
 //					검사 통과 상황.
 					
